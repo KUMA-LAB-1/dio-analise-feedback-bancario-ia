@@ -1,43 +1,40 @@
-# 🎯 Security Analytics: Extraindo Insights de Engenharia Social e Fraudes Bancárias com IA
+🎯 Entrega do Desafio Criativo: Inteligência de Ameaças Bancárias
+🧱 Passo 1: Defina a intenção
 
-## 📝 Sobre o Projeto
-Este repositório foi criado para documentar e desenvolver o projeto final da trilha de Fundamentos de Dados da DIO. O objetivo central é unir conceitos de **Análise de Dados** com **Cibersegurança e Defesa Cibernética**, utilizando Inteligência Artificial (Engenharia de Prompts) para processar relatos de clientes bancários vítimas de golpes e transformá-los em inteligência proativa contra ameaças.
+    Quero que a IA analise: relatos, reclamações e contestações de clientes bancários relacionados a incidentes de segurança, tentativas de golpes (phishing, spoofing) e fraudes financeiras digitais.
 
-> 🛠️ **Status do Projeto:** Em desenvolvimento / Assistindo às aulas teóricas.
+    O principal objetivo da análise é: identificar padrões de ataques de engenharia social, novas táticas criminosas e vetores de vulnerabilidade na jornada do cliente.
 
----
+    O resultado será usado por: equipes de Segurança da Informação, times de prevenção a fraudes (Fraud Analytics) e Analistas de SOC (Security Operations Center).
 
-## 🚀 O Desafio de Negócio
-Analistas de segurança e times de SOC (Security Operations Center) frequentemente lidam com volumes massivos de reclamações e contestações de fraudes. Processar esses textos manualmente atrasa a identificação de novas campanhas de *phishing* ou *engenharia social*. 
+    Para apoiar: a tomada de decisões proativas na criação de defesas técnicas e campanhas de conscientização contra golpes.
 
-Este projeto visa estruturar um modelo de IA capaz de ler depoimentos brutos de clientes, categorizar o *modus operandi* dos criminosos, remover dados sensíveis (LGPD) e sugerir mitigações imediatas.
+    A entrega deve conter: um Resumo Executivo de Ameaças, uma Tabela de Inteligência de Vetores Criminosos e Recomendações de Mitigação.
 
----
+    O resultado será considerado bom se: for altamente analítico, focado em mapear o modus operandi dos criminosos e útil para desenhar barreiras contra fraudes digitais.
 
-## 🧩 Construção do Prompt Passo a Passo
+🧱 Passo 2: Adicione contexto e restrições
 
-### 1. Definição da Intenção e Objetivo (Cybersecurity & Data Analytics)
-*   **Quero que a IA analise:** relatos, reclamações e feedbacks de clientes bancários relacionados a incidentes de segurança, tentativas de golpes (phishing, engenharia social), fraudes no aplicativo ou transações suspeitas (Pix/Cartão).
-*   **O resultado será usado por:** Equipes de Segurança da Informação, Analistas de Fraude (Fraud Analytics) e times de Defesa Cibernética (SOC).
-*   **Para apoiar:** a identificação precoce de novas campanhas de engenharia social direcionadas aos clientes, mitigação de vulnerabilidades na jornada do usuário e criação de alertas preventivos de segurança.
-*   **A entrega deve conter:** um Resumo Executivo de Ameaças, uma Tabela de Vetores de Engenharia Social com níveis de criticidade e Recomendações de Mitigação Técnica/Educacional.
+    Contexto: Estou trabalhando com relatos de clientes reais (simulados) que alegam terem sido vítimas de fraudes ou tentativas de engenharia social envolvendo canais e produtos do banco (como Pix e Cartões Virtuais).
 
-### 2. Contexto, Dados Disponíveis e Restrições
-*   **Contexto:** Base de relatos e contestações de clientes que alegam terem sido vítimas de engenharia social ou falhas de segurança em transações digitais.
-*   **Dados disponíveis:** Uma base de dados simulada contendo as colunas: `Data_Ocorrencia`, `ID_Cliente`, `Canal_Relato`, `Relato_Texto` (o depoimento bruto), `Produto_Alvo` e `Valor_Impactado`.
-*   **Critérios de análise:** Identificação do vetor do ataque, nível de criticidade e risco operacional (Alto, Médio, Baixo).
-*   **Cuidados e Restrições (Governança e LGPD):** 
-    *   Uso estrito de evidências (sem alucinações).
-    *   **Anonimização Estrita:** Remoção completa de CPFs, senhas, agências, contas ou nomes reais do output.
-    *   Linguagem analítica, técnica e voltada para segurança da informação.
+    Dados disponíveis: A base gerada via banco de dados relacional contém os campos Data_Ocorrencia, ID_Cliente, Canal_Relato (Chat, Ouvidoria, Reclame Aqui), Relato_Texto (depoimento do cliente), Produto_Alvo e Valor_Impactado.
 
----
+    Critérios de análise: A IA deve classificar os depoimentos por Vetor de Engenharia Social (ex: SMS Falso, Ligação Falsa de Funcionário, WhatsApp Clonado), Nível de Criticidade/Risco Operacional (Alto, Médio, Baixo) e impacto financeiro.
 
-## 🤖 O Prompt Final Consolidado
+    Cuidados e restrições:
 
-Abaixo está o comando estruturado pronto para ser utilizado em modelos de IA (como ChatGPT, Claude ou Gemini):
+        Use apenas os dados fornecidos (sem alucinações de cenários não descritos).
 
-```text
+        Não invente números, causas ou conclusões técnicas sem evidência.
+
+        Anonimização Estrita: Não exponha dados pessoais ou sensíveis; remova CPFs, senhas, chaves Pix ou nomes do output final.
+
+        Se houver informação insuficiente para determinar o golpe, classifique como "Vetor Indeterminado".
+
+        Use linguagem técnica, executiva e voltada para segurança da informação.
+
+🧱 Passo 3: Una as peças e refine (O Prompt Final)
+
 Atue como um Especialista em Threat Intelligence e Analista de Security Analytics em uma instituição financeira.
 
 Sua tarefa é analisar relatos, reclamações e contestações de clientes bancários relacionados a incidentes de segurança, tentativas de golpes, fraudes digitais e engenharia social para identificar padrões de ataque, vetores de vulnerabilidade e oportunidades de defesa cibernética.
@@ -52,7 +49,7 @@ Instruções de análise:
 1. Classifique cada relato de acordo com o Vetor de Ataque principal utilizado pelo fraudador (ex: Phishing por SMS, Spoofing de ID de chamada/Falso Funcionário, Engenharia Social via WhatsApp, Malware/Links Maliciosos).
 2. Avalie o Nível de Risco Operacional e Criticidade do incidente para a instituição (Alto, Médio, Baixo).
 3. Identifique padrões comportamentais recorrentes ou novos argumentos (scripts de persuasão) utilizados pelos criminosos.
-4. Sugira ações práticas de mitigação técnica para as equipes de infraestrutura/segurança do banco e ações educativas (alertas e comics) para o cliente final.
+4. Sugira ações práticas de mitigação técnica para as equipes de infraestrutura/segurança do banco e ações educativas (alertas e comunicações) para o cliente final.
 
 Formato da resposta esperado:
 - 📊 Resumo Executivo de Ameaças: Um panorama geral com os principais vetores de ataque identificados na base analisada.
