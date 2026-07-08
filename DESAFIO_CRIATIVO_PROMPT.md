@@ -57,29 +57,32 @@ Restrições:
 * Use linguagem técnica, direta, executiva e voltada para cibersegurança e mitigação de riscos.
 
         Use linguagem técnica, direta, executiva e voltada para cibersegurança e mitigação de riscos.
-------
+````
+------ Resposta Copilot ------
 
-🚀 Evidência de Execução (Resposta da IA - Validada)
+# 🛡️ Relatório Forense de Transações Digitais (SOC) 
 
-Abaixo está o relatório analítico gerado pela Inteligência Artificial com base no prompt estruturado acima, demonstrando precisão e total conformidade com a volumetria do banco de dados e do dashboard do Power BI:
+## 📌 Resumo Executivo
+O sistema de pagamentos digitais apresentou indícios claros de ataque direcionado: o cliente **Juliana M.** realizou múltiplas transações de alto valor em sequência, incluindo uma tentativa bloqueada por suspeita. O padrão sugere **tentativa de fraude por fragmentação de valores (smurfing)** após bloqueio inicial. O restante dos clientes não apresentou comportamento anômalo relevante. O SOC deve tratar este caso como **incidente crítico em andamento**.
 
-📝 Resumo Executivo Forense
+---
 
-O sistema de monitoramento detectou uma anomalia de alta severidade concentrada em uma única conta corrente: a cliente Juliana M. registrou uma transferência de R$ 45.000,00 bloqueada preventivamente por suspeita via Pix. Imediatamente após o bloqueio, ocorreram duas transferências consecutivas bem-sucedidas de valores fracionados (R$ 4.999,00 e R$ 4.995,00). Este comportamento caracteriza um padrão clássico de Smurfing (tentativa de burlar limites operacionais após um bloqueio de segurança). As demais contas operaram em conformidade de baseline.
+## 🔎 Tabela Analítica de Contas Suspeitas
 
-🔎 Tabela Analítica de Contas Suspeitas
+| ID Cliente | Cliente Anonimizado  | Agência | Conta   | Tipo Transação | Valor (R$) | Status                 | Evidência       |
+|------------|----------------------|---------|---------|----------------|------------|------------------------|-----------------|
+| 4          | Juliana M.           | 0147    | 0033445 | Pix            | 45.000,0   | Bloqueada por Suspeita | Transação ID 6  |
+| 4          | Juliana M.           | 0147    | 0033445 | Pix            | 4.999,0    | Concluída              | Transação ID 7  |
+| 4          | Juliana M.           | 0147    | 0033445 | Pix            | 4.995,0    | Concluída              | Transação ID 8  |
 
-ID Transação,ID Cliente,Cliente Anonimizado,Agência,Conta,Tipo Transação,Valor,Status
-6,4,Juliana M.,147,33445,Pix,"R$ 45.000,00",Bloqueada por Suspeita
-7,4,Juliana M.,147,33445,Pix,"R$ 4.999,00",Concluída
-8,4,Juliana M.,147,33445,Pix,"R$ 4.995,00",Concluída
+---
 
-⚠️ Recomendações Imediatas
+## ⚠️ Recomendações Imediatas
+1. **Segurança Lógica:** Implementar regra de correlação que bloqueie automaticamente múltiplas transações consecutivas de alto valor após uma tentativa suspeita, evitando bypass por fragmentação.  
+2. **Segurança Física/Operacional:** Acionar equipe antifraude para contato imediato com o cliente e validação da origem das transações, garantindo que não se trata de comprometimento de credenciais.  
+3. **Mitigação Técnica:** Refinar o motor de detecção para incluir **limite de volumetria por janela de tempo** (ex.: 3 transações acima de R$ 4.000 em menos de 5 minutos → bloqueio automático).  
 
-    Segurança Lógica: Implementar uma regra de correlação imediata que imponha um bloqueio temporário total de saídas na conta corrente caso qualquer transação Pix acima de R$ 10.000,00 seja retida ou bloqueada pelo motor de fraudes.
+---
 
-    Segurança Operacional: Acionar o time de Prevenção a Fraudes e a gerência da Agência 147 para contato reativo com o titular da conta (ID 4), validando a legitimidade do acesso e mitigando riscos de Account Takeover (sequestro de conta).
+📍 **Limitação:** A base fornecida contém apenas 8 transações, não permitindo análise estatística ampla de padrões históricos. A investigação deve ser expandida para logs completos do período.
 
-    Mitigação Técnico-Analítica: Refinar o algoritmo de detecção para monitorar e alertar transferências repetitivas com valores imediatamente abaixo do limite padrão de alerta da instituição financeira (ex: transações consecutivas na faixa de R$ 4.900,00).
-
-📍 Limitação Detectada: O arquivo gerado pelo pipeline de ETL é uma amostragem restrita contendo 8 registros transacionais. Recomenda-se a extração de uma janela de 30 dias para mapear o comportamento histórico regular da conta.
