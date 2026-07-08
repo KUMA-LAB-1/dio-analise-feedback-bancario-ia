@@ -22,7 +22,7 @@ O projeto foi lapidado em 3 camadas técnicas complementares, utilizando ferrame
    * Estruturação de tabelas e inserção de logs de transações financeiras simuladas.
    * Validação e auditoria direta dos dados brutos através do comando:
      ```sql
-     SELECT * FROM log_transacoes;
+     SELECT * FROM v_analise_investigacao_soc;
      ```
 
 2. **Pipeline de Engenharia e Execução Moderna (Python - ETL & UV):** 
