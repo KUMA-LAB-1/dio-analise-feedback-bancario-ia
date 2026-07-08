@@ -27,10 +27,17 @@ O projeto foi lapidado em 3 camadas técnicas complementares, baseadas em pesqui
 
 Aqui está o resultado final da lapidação visual dos dados higienizados:
 
-![Dashboard do SOC](dashboard/dashboard_soc.png)
+![Dashboard do SOC](dashboard/dashboard_soc1.png)
+![Dashboard do SOC](dashboard/dashboard_soc2.PNG)
+![Dashboard do SOC](dashboard/dashboard_soc3.PNG)
+![Dashboard do SOC](dashboard/dashboard_soc4.PNG)
 
 ---
 
-## ⚖️ Licença
+## ⚖️ Licença e Direitos Autorais
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este trabalho está licenciado sob a Licença **Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**. 
+
+Você é livre para compartilhar, copiar, distribuir e adaptar este material para qualquer fim, desde que atribua os devidos créditos ao autor original (**Wellington Hikaru Kumagai**) e distribua suas contribuições sob a mesma licença. O autor não oferece garantias e se isenta de qualquer responsabilidade por danos resultantes do uso deste material de estudo fictício. 
+
+Veja o arquivo [LICENSE](LICENSE) para o texto completo dos termos.
