@@ -15,12 +15,25 @@ Em conformidade com as diretrizes da atividade, o objetivo principal foi estrutu
 
 ## 🛠️ Arquitetura e Processo de Desenvolvimento
 
-O projeto foi lapidado em 3 camadas técnicas complementares, baseadas em pesquisas de mercado e melhores práticas de DevSecOps:
+O projeto foi lapidado em 3 camadas técnicas complementares, utilizando ferramentas modernas de mercado e conceitos de nuvem:
 
-1. **Modelagem de Dados (SQL):** Estruturação de tabelas e inserção de logs de transações financeiras simuladas.
-2. **Pipeline de Engenharia (Python - ETL):** Desenvolvimento de um script automatizado (`etl_process.py`) focado em extração, limpeza de dados nulos e aplicação de máscaras de privacidade (Anonimização de nomes e CPFs em conformidade estrita com a LGPD).
-3. **Dashboard Forense (Power BI):** Criação de uma central de monitoramento visual (SOC/Threat Hunting) interativa para rastrear volumetria de incidentes, canais visados (como o Pix) e bloqueios preventivos.
+1. **Modelagem e Infraestrutura de Dados (SQL & Supabase):** 
+   * Criação e hospedagem do banco de dados relacional (PostgreSQL) na nuvem utilizando a plataforma **Supabase**.
+   * Estruturação de tabelas e inserção de logs de transações financeiras simuladas.
+   * Validação e auditoria direta dos dados brutos através do comando:
+     ```sql
+     SELECT * FROM log_transacoes;
+     ```
 
+2. **Pipeline de Engenharia e Execução Moderna (Python - ETL & UV):** 
+   * Desenvolvimento de um script focado em extração, limpeza de dados nulos e aplicação de máscaras de privacidade (LGPD).
+   * Utilização do gerenciador de pacotes de alta performance **`uv`** para rodar o pipeline de forma isolada, injetando dinamicamente as bibliotecas necessárias para a engenharia de dados através do comando:
+     ```bash
+     uv run --with pandas --with psycopg2-binary --with sqlalchemy --with python-dotenv 08_etl_python.py
+     ```
+
+3. **Dashboard Forense (Power BI):** 
+   * Criação de uma central de monitoramento visual (SOC/Threat Hunting) interativa para rastrear volumetria de incidentes, canais visados (como o Pix) e bloqueios preventivos.
 ---
 
 ## 📸 Prova Visual do Painel (SOC)
