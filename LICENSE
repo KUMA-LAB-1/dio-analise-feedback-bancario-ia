@@ -1,17 +1,31 @@
-LICENÇA CREATIVE COMMONS - ATRIBUIÇÃO-COMPARTILHAIGUAL 4.0 INTERNACIONAL (CC BY-SA 4.0)
+SISTEMA DE DUPLA LICENÇA (DUAL-LICENSING)
 
 Direitos Autorais (c) 2026 - Wellington Hikaru Kumagai
-Disponível em: https://github.com/ seu-usuario-aqui / KUMA-LAB-1
+Repositório: https://github.com/seu-usuario-aqui/KUMA-LAB-1
 
-Esta é uma licença pública que permite o uso, modificação e distribuição de trabalhos derivados sob as seguintes condições:
+Este repositório é distribuído sob um modelo de dupla licença, aplicando-se termos específicos dependendo da natureza do componente do projeto:
 
-1. ATRIBUIÇÃO (Attribution): Você deve dar o crédito apropriado ao autor original (Wellington Hikaru Kumagai), prover um link para a licença e indicar se mudanças foram feitas. Você pode fazê-lo de qualquer forma razoável, mas não de maneira que sugira que o licenciante endossa você ou o seu uso.
+1. COMPONENTES DE CÓDIGO E SOFTWARE (MIT LICENSE)
+Todos os arquivos de código-fonte, incluindo scripts Python (.py), arquivos de banco de dados (.sql), esquemas, arquivos de configuração e código de automação são licenciados sob a MIT License.
 
-2. COMPARTILHAIGUAL (ShareAlike): Se você remixar, transformar ou criar a partir deste material, você deve distribuir as suas contribuições sob a mesma licença que o original.
+2. COMPONENTES DE DOCUMENTAÇÃO, AUDIOVISUAL E DESIGN (CC BY-SA 4.0)
+A engenharia de prompts, arquivos de documentação (.md), relatórios descritivos, layouts de relatórios, arquivos do Power BI (.pbix) e capturas de tela/imagens dos dashboards são licenciados sob a Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional.
 
 ----------------------------------------------------------------------
-TERMO DE ISENÇÃO DE RESPONSABILIDADE (DISCLAIMER)
+TERMOS DA LICENÇA MIT (Para Códigos e Scripts)
 
-NA EXTENSÃO MÁXIMA PERMITIDA PELA LEI APLICÁVEL, O LICENCIANTE OFERECE O MATERIAL "NO ESTADO EM QUE SE ENCONTRA" (AS-IS) E NÃO FAZ QUALQUER DECLARAÇÃO OU DÁ GARANTIAS DE QUALQUER TIPO, SEJAM ELAS EXPRESSAS, IMPLÍCITAS, LEGAIS OU OUTRAS.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-O AUTOR EXCLUI E SE ISENTA DE QUALQUER RESPONSABILIDADE POR QUAISQUER DANOS DIRETOS, INDIRETOS, ESPECIAIS, INCIDENTAIS OU CONSEQUENTES (INCLUINDO, MAS NÃO SE LIMITANDO A, PERDA DE DADOS, FALHAS TÉCNICAS, INCONSISTÊNCIAS EM BANCOS DE DADOS OU ERROS DE SCRIPTS) DECORRENTES DO USO OU DA INCAPACIDADE DE USAR ESTE MATERIAL DIDÁTICO E FICTÍCIO, MESMO QUE O AUTOR TENHA SIDO AVISADO DA POSSIBILIDADE DE TAIS DANOS.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+----------------------------------------------------------------------
+TERMOS DA CREATIVE COMMONS (Para Documentações, Prompts e Dashboards)
+
+CC BY-SA 4.0 INTERNACIONAL: Você é livre para compartilhar, copiar, distribuir, transformar e criar a partir deste material para qualquer fim, desde que atribua os devidos créditos ao autor original (Wellington Hikaru Kumagai) e distribua suas contribuições modificadas sob a mesma licença.
+
+----------------------------------------------------------------------
+TERMO DE ISENÇÃO DE RESPONSABILIDADE GLOBAL (DISCLAIMER)
+
+TODO O CONTEÚDO DESTE REPOSITÓRIO (CÓDIGOS, PROMPTS E DASHBOARDS) É DOADO "NO ESTADO EM QUE SE ENCONTRA" (AS-IS), TENDO CARÁTER ESTRITAMENTE DIDÁTICO E FICTÍCIO. O AUTOR SE ISENTA DE QUALQUER RESPONSABILIDADE FINANCEIRA, LEGAL OU TÉCNICA POR QUAISQUER DANOS, PERDAS DE DADOS, INCONSISTÊNCIAS OU VIOLAÇÕES QUE POSSAM DECORRER DA EXECUÇÃO, ADAPTAÇÃO OU USO DESTES MATERIAIS.
