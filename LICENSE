@@ -1,31 +1,21 @@
-SISTEMA DE DUPLA LICENÇA (DUAL-LICENSING)
+MIT License
 
-Direitos Autorais (c) 2026 - Wellington Hikaru Kumagai
-Repositório: https://github.com/seu-usuario-aqui/KUMA-LAB-1
+Copyright (c) 2026 Wellington Hikaru Kumagai
 
-Este repositório é distribuído sob um modelo de dupla licença, aplicando-se termos específicos dependendo da natureza do componente do projeto:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. COMPONENTES DE CÓDIGO E SOFTWARE (MIT LICENSE)
-Todos os arquivos de código-fonte, incluindo scripts Python (.py), arquivos de banco de dados (.sql), esquemas, arquivos de configuração e código de automação são licenciados sob a MIT License.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. COMPONENTES DE DOCUMENTAÇÃO, AUDIOVISUAL E DESIGN (CC BY-SA 4.0)
-A engenharia de prompts, arquivos de documentação (.md), relatórios descritivos, layouts de relatórios, arquivos do Power BI (.pbix) e capturas de tela/imagens dos dashboards são licenciados sob a Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional.
-
-----------------------------------------------------------------------
-TERMOS DA LICENÇA MIT (Para Códigos e Scripts)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-----------------------------------------------------------------------
-TERMOS DA CREATIVE COMMONS (Para Documentações, Prompts e Dashboards)
-
-CC BY-SA 4.0 INTERNACIONAL: Você é livre para compartilhar, copiar, distribuir, transformar e criar a partir deste material para qualquer fim, desde que atribua os devidos créditos ao autor original (Wellington Hikaru Kumagai) e distribua suas contribuições modificadas sob a mesma licença.
-
-----------------------------------------------------------------------
-TERMO DE ISENÇÃO DE RESPONSABILIDADE GLOBAL (DISCLAIMER)
-
-TODO O CONTEÚDO DESTE REPOSITÓRIO (CÓDIGOS, PROMPTS E DASHBOARDS) É DOADO "NO ESTADO EM QUE SE ENCONTRA" (AS-IS), TENDO CARÁTER ESTRITAMENTE DIDÁTICO E FICTÍCIO. O AUTOR SE ISENTA DE QUALQUER RESPONSABILIDADE FINANCEIRA, LEGAL OU TÉCNICA POR QUAISQUER DANOS, PERDAS DE DADOS, INCONSISTÊNCIAS OU VIOLAÇÕES QUE POSSAM DECORRER DA EXECUÇÃO, ADAPTAÇÃO OU USO DESTES MATERIAIS.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
