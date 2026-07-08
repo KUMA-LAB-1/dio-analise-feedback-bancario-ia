@@ -7,6 +7,7 @@ O resultado será usado por analistas e engenheiros do SOC (Security Operations 
 A entrega deve conter um resumo de incidentes por severidade, volumetria financeira exposta por tipo de canal (como Pix e TED) e a identificação de contas com atividades repetitivas fora do padrão.
 
 O resultado será considerado bom se for cirúrgico, livre de alucinações matemáticas, altamente focado na identificação de vetores de ataque e estruturado de forma a facilitar a posterior higienização dos dados.
+
 🧱 Passo 2: Adicione contexto e restrições
 
 Contexto: Estou trabalhando com feedbacks e métricas de monitoramento de transações bancárias relacionadas a transferências via Pix, TED e Cartão Virtual coletadas em tempo real pela infraestrutura de segurança.
