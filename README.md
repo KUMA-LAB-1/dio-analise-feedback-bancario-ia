@@ -34,10 +34,11 @@ Aqui está o resultado final da lapidação visual dos dados higienizados:
 
 ---
 
-## ⚖️ Licença e Direitos Autorais
+## ⚖️ Licença e Direitos Autorais (Dual-Licensing)
 
-Este trabalho está licenciado sob a Licença **Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**. 
+Este projeto adota um modelo de **Dupla Licença** para garantir a proteção e a máxima liberdade de estudo da comunidade:
 
-Você é livre para compartilhar, copiar, distribuir e adaptar este material para qualquer fim, desde que atribua os devidos créditos ao autor original (**Wellington Hikaru Kumagai**) e distribua suas contribuições sob a mesma licença. O autor não oferece garantias e se isenta de qualquer responsabilidade por danos resultantes do uso deste material de estudo fictício. 
+* **Códigos e Scripts (`.py`, `.sql`):** Distribuídos sob a **Licença MIT** (Livre para uso e modificação comercial ou privada).
+* **Documentação, Prompts e Dashboards (`.md`, `.pbix`, imagens):** Distribuídos sob a Licença **Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**, exigindo menção dos créditos ao autor original e redistribuição aberta.
 
-Veja o arquivo [LICENSE](LICENSE) para o texto completo dos termos.
+O autor não oferece garantias de nenhuma natureza e fica totalmente isento de responsabilidades pelo uso das ferramentas e dados fictícios aqui disponibilizados. Veja o arquivo [LICENSE](LICENSE) para ler o termo jurídico completo.
