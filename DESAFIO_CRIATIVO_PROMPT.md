@@ -58,9 +58,10 @@ Restrições:
 
         Use linguagem técnica, direta, executiva e voltada para cibersegurança e mitigação de riscos.
 ````
------- Resposta Copilot ------
 
-# 🛡️ Relatório Forense de Transações Digitais (SOC) 
+---
+
+# 🛡️ Relatório Forense de Transações Digitais (SOC) - Copilot
 
 ## 📌 Resumo Executivo
 O sistema de pagamentos digitais apresentou indícios claros de ataque direcionado: o cliente **Juliana M.** realizou múltiplas transações de alto valor em sequência, incluindo uma tentativa bloqueada por suspeita. O padrão sugere **tentativa de fraude por fragmentação de valores (smurfing)** após bloqueio inicial. O restante dos clientes não apresentou comportamento anômalo relevante. O SOC deve tratar este caso como **incidente crítico em andamento**.
