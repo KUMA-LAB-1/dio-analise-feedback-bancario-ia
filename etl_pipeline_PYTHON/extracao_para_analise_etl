@@ -1,0 +1,9 @@
+id_transacao,id_cliente,cliente_anonimizado,cpf_protegido,agencia,numero_conta,tipo_transacao,valor_transacao,data_hora_transacao,status_transacao
+1,1,Carlos E.,***.456.789-**,0147,0012345,Pix,120.0,2026-07-05 09:30:00,Concluída
+2,2,Mariana C.,***.567.890-**,3200,0054321,Cartão Virtual,45.9,2026-07-05 11:15:00,Concluída
+3,4,Juliana M.,***.789.012-**,0147,0033445,TED,5000.0,2026-07-05 15:00:00,Concluída
+4,5,Fernanda S.,***.890.123-**,3200,0077665,Pix,35.0,2026-07-05 19:00:00,Concluída
+5,1,Carlos E.,***.456.789-**,0147,0012345,Pix,250.0,2026-07-05 21:30:00,Concluída
+6,4,Juliana M.,***.789.012-**,0147,0033445,Pix,45000.0,2026-07-06 02:15:00,Bloqueada por Suspeita
+7,4,Juliana M.,***.789.012-**,0147,0033445,Pix,4999.0,2026-07-06 02:17:22,Concluída
+8,4,Juliana M.,***.789.012-**,0147,0033445,Pix,4995.0,2026-07-06 02:19:10,Concluída
