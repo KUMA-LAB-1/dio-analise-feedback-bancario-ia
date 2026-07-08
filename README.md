@@ -47,11 +47,14 @@ Aqui está o resultado final da lapidação visual dos dados higienizados:
 
 ---
 
-## ⚖️ Licença e Direitos Autorais (Dual-Licensing)
+## ⚖️ Direitos Autorais e Licença
 
-Este projeto adota um modelo de **Dupla Licença** para garantir a proteção e a máxima liberdade de estudo da comunidade:
+Este projeto possui caráter estritamente educativo, de pesquisa e compartilhamento de conhecimento em segurança cibernética.
 
-* **Códigos e Scripts (`.py`, `.sql`):** Distribuídos sob a **Licença MIT** (Livre para uso e modificação comercial ou privada).
-* **Documentação, Prompts e Dashboards (`.md`, `.pbix`, imagens):** Distribuídos sob a Licença **Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**, exigindo menção dos créditos ao autor original e redistribuição aberta.
+* **Autor:** Wellington Hikaru Kumagai  
+* **Licenciamento de Conteúdo e Pesquisa:** Distribuído sob a Licença **[Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR)**.
+* **Licenciamento de Scripts/Código:** Disponibilizado sob a **[Licença MIT](LICENSE)**.
 
-O autor não oferece garantias de nenhuma natureza e fica totalmente isento de responsabilidades pelo uso das ferramentas e dados fictícios aqui disponibilizados. Veja o arquivo [LICENSE](LICENSE) para ler o termo jurídico completo.
+> 📝 **Nota de Permissão:** Você é livre para compartilhar, copiar, distribuir e adaptar este material para fins acadêmicos, corporativos ou profissionais, desde que atribua os créditos ao autor original e distribua suas contribuições sob a mesma licença.
+
+---
