@@ -1,6 +1,6 @@
 # 🛡️ Lab: Engenharia de Prompts & Analise Forense no SOC Bancário
 
-Este repositório foi desenvolvido como entrega para o **Desafio Criativo da DIO**. O projeto une a engenharia de prompts com a simulação de um pipeline de dados ponta a ponta (SQL, Python e Power BI) voltado para Segurança da Informação.
+Este repositório foi desenvolvido como entrega para o **Bootcamp Bradesco e DIO - GenAI, Dados & Cyber**. O projeto une a engenharia de prompts com a simulação de um pipeline de dados ponta a ponta (SQL, Python e Power BI) voltado para Segurança da Cibernética.
 
 > 💡 **Nota de Isenção:** Todo o material, dados de clientes, logs e valores contidos neste laboratório são **estritamente fictícios**. Eles foram gerados e manipulados com o único propósito de aplicar os conhecimentos práticos desenvolvidos durante as aulas e servir como material de apoio didático para quem busca uma base de estudos na área.
 
