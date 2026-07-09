@@ -11,7 +11,7 @@ INSERT INTO tbl_clientes (nome_completo, cpf, telefone) VALUES
 ('Juliana Mendes Vieira', '456.789.012-33', '(19) 95555-4444'),
 ('Fernanda Souza Lima', '567.890.123-44', '(34) 94444-5555');
 
--- Inserindo Contas Bancárias (Simulando o padrão de Agências Bradesco)
+-- Inserindo Contas Bancárias (Simulando o padrão de Agências Bancária)
 -- Agência 0147 (Prime), Agência 3200 (Varejo)
 INSERT INTO tbl_contas (id_cliente, agencia, numero_conta, digito_verificador, tipo_conta, saldo_atual) VALUES
 (1, '0147', '0012345', '6', 'Corrente', '15450.00'),
