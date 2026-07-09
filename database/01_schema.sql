@@ -15,7 +15,7 @@ CREATE TABLE tbl_clientes (
 );
 
 -- 2. TABELA DE CONTAS BANCÁRIAS
--- Padrão Bradesco: Agência com 4 dígitos e Conta Corrente/Poupança com DV
+-- Padrão Banco: Agência com 4 dígitos e Conta Corrente/Poupança com DV
 CREATE TABLE tbl_contas (
     id_conta SERIAL PRIMARY KEY,
     id_cliente INT REFERENCES tbl_clientes(id_cliente) ON DELETE CASCADE,
