@@ -69,7 +69,7 @@ try:
     print("💾 Salvando relatório final higienizado...")
     df_relatorio_final.to_csv("extracao_para_analise_etl.csv", index=False, encoding="utf-8")
     
-    print("✅ Processo concluído com sucesso! Arquivo 'relatorio_soc_higienizado.csv' gerado.")
+    print("✅ Processo concluído com sucesso! Arquivo 'extracao_para_analise_etl.csv' gerado.")
 
 except Exception as e:
     print(f"❌ Erro detectado no pipeline de ETL: {e}")
