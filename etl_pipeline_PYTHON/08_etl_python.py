@@ -59,7 +59,7 @@ try:
     ]
     df_relatorio_final = df_final[colunas_relatorio]
 
-    # Rename das colunas para ficar visualmente profissional
+    # Rename das colunas
     df_relatorio_final = df_relatorio_final.rename(columns={
         "nome_completo": "cliente_anonimizado",
         "cpf": "cpf_protegido"
