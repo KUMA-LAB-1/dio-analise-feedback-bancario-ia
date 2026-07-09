@@ -29,14 +29,14 @@ O projeto foi lapidado em 3 camadas técnicas complementares, utilizando ferrame
   ```sql
   SELECT * FROM v_analise_investigacao_soc;
 
-3. **Pipeline de Engenharia e Execução Moderna (Python - ETL & UV):** 
+### 3. **Pipeline de Engenharia e Execução Moderna (Python - ETL & UV):** 
    * Desenvolvimento de um script focado em extração, limpeza de dados nulos e aplicação de máscaras de privacidade (LGPD).
    * Utilização do gerenciador de pacotes de alta performance **`uv`** para rodar o pipeline de forma isolada, injetando dinamicamente as bibliotecas necessárias para a engenharia de dados através do comando:
      ```bash
      uv run --with pandas --with psycopg2-binary --with sqlalchemy --with python-dotenv 08_etl_python.py
      ```
 
-4. **Dashboard Forense (Power BI):** 
+### 4. **Dashboard Forense (Power BI):** 
    * Criação de uma central de monitoramento visual (SOC/Threat Hunting) interativa para rastrear volumetria de incidentes, canais visados (como o Pix) e bloqueios preventivos.
 ---
 
